@@ -1,0 +1,8 @@
+{
+	"hello": {
+		"prefix": "hello",
+		"body": "\r\nHello, ${1:this} is a ${2:snippet}.\r\n",
+		"description": "",
+		"scope": ""
+	}
+}

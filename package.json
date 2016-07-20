@@ -1,0 +1,21 @@
+{
+    "name": "js",
+    "displayName": "js",
+    "description": "protractor",
+    "version": "0.0.1",
+    "publisher": "isortegah",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript, protractor",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
