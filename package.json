@@ -1,7 +1,7 @@
 {
-    "name": "js",
-    "displayName": "js",
-    "description": "protractor",
+    "name": "protractor-vscode-snippets",
+    "displayName": "protractor-vscode-snippets",
+    "description": "snippets for better workflow when performing test automation E2E with protractor.",
     "version": "0.0.1",
     "publisher": "isortegah",
     "engines": {
@@ -13,8 +13,8 @@
     "contributes": {
         "snippets": [
             {
-                "language": "javascript, protractor",
-                "path": "./snippets/snippets.json"
+                "language": "javascript",
+                "path": "./snippets/javascript.json"
             }
         ]
     }
