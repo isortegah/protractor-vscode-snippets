@@ -1,17 +1,26 @@
 {
 	"brower.get": {
 		"prefix": "brg",
-		"body": "browser.get($1  )",
-		"scope": "js"
+		"body": "browser.get($1);",
+		"scope": "js",
+		"description": "browser.get"
 	},
     "browser.getCurrentUrl": {
 		"prefix": "brgc",
-		"body": "browser.getCurrentUrl()",
-		"scope": "js"
+		"body": "browser.getCurrentUrl($1);",
+		"scope": "js",
+		"description": "browser.getCurrentUrl"
 	},
     "browser.pause": {
 		"prefix": "brp",
-		"body": "browser.pause($1)",
-		"scope": "js"
+		"body": "browser.pause($1);",
+		"scope": "js",
+		"description": "browser.pause"
+	},
+	"browser.getLocationAbsUrl": {
+		"prefix" : "brgl",
+		"body" : "browser.getLocationAbsUrl($1);",
+		"scope" : "js",
+		"description" : "browser.getLocationAbsUrl"
 	}
 }
