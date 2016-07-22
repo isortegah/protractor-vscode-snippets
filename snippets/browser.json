@@ -1,0 +1,17 @@
+{
+	"brower.get": {
+		"prefix": "brg",
+		"body": "browser.get($1  )",
+		"scope": "js"
+	},
+    "browser.getCurrentUrl": {
+		"prefix": "brgc",
+		"body": "browser.getCurrentUrl()",
+		"scope": "js"
+	},
+    "browser.pause": {
+		"prefix": "brp",
+		"body": "browser.pause($1)",
+		"scope": "js"
+	}
+}
