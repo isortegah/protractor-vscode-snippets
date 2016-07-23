@@ -2,25 +2,92 @@
 	"brower.get": {
 		"prefix": "brg",
 		"body": "browser.get($1);",
-		"scope": "js",
-		"description": "browser.get"
+		"description": "browser.get",
+		"scope": "js"	
 	},
     "browser.getCurrentUrl": {
 		"prefix": "brgc",
 		"body": "browser.getCurrentUrl($1);",
-		"scope": "js",
-		"description": "browser.getCurrentUrl"
+		"description": "browser.getCurrentUrl",
+		"scope": "js"
 	},
     "browser.pause": {
 		"prefix": "brp",
 		"body": "browser.pause($1);",
-		"scope": "js",
-		"description": "browser.pause"
+		"description": "browser.pause",
+		"scope": "js"
 	},
 	"browser.getLocationAbsUrl": {
 		"prefix" : "brgl",
 		"body" : "browser.getLocationAbsUrl($1);",
-		"scope" : "js",
-		"description" : "browser.getLocationAbsUrl"
-	}
+		"description" : "browser.getLocationAbsUrl",
+		"scope" : "js"
+	},
+	"browser.setLocation": {
+		"prefix": "brsl",
+    	"body"  : "browser.setLocation($1);",
+		"description" : "browser.setLocation",
+		"scope" : "js"
+	},
+   "browser.addMockModule":{
+    	"prefix" : "bram",
+    	"body"   : "browser.addMockModule($1);",
+		"description" : "browser.addMockModule",
+		"scope"  : "js"
+   },
+   "browser.clearMockModules":{
+    	"prefix" : "brcm",
+    	"body"   : "browser.clearMockModules($1);",
+		"description" : "browser.clearMockModules",
+		"scope"  : "js"
+   },
+   "browser.wait":{
+    	"prefix" : "brw",
+    	"body"   : "browser.wait($1);",
+		"description" : "browser.wait",
+		"scope"  : "js"
+   },
+   "browser.wait.function" : {
+	   "prefix" : "brwf",
+	   "body" : [
+		   "browser.wait( function (){",
+		   "\treturn element($1).isPresent();",
+		   "},${time});"
+	   ],
+	   "description" : "browser.wait.function"
+   },
+  "browser.waitForAngular" : {
+    	"prefix" : "brwa",
+    	"body"   : "browser.waitForAngular();",
+		"description" : "browser.waitForAngular",
+		"scope"  : "js"
+  },
+  "browser.sleep" : {
+	  "prefix" : "brslp",
+	  "body" : [
+		  "browser.sleep($1);"
+	  ],
+	  "description" : "browser.sleep"
+  },
+  "browser.navigate.back" : {
+	  "prefix" : "brnb",
+	  "body" : [
+		  "browser.sleep($1);"
+	  ],
+	  "description" : "browser.navigate.back"
+  },
+  "browser.navigate.forward" : {
+	  "prefix" : "brnf",
+	  "body" : [
+		  "browser.navigate().forward();"
+	  ],
+	  "description" : "browser.navigate.forward"
+  },
+  "browser.ignoreSynchronization" : {
+	  "prefix" : "bris",
+	  "body" : [
+		  "browser.ignoreSynchronization = $1;"
+	  ],
+	  "description" : "browser.ignoreSynchronization"
+  }
 }
