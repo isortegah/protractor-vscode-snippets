@@ -5,20 +5,23 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 ###Browser
 | Prefix (Trigger)   | Descripcion |
 | -------            | ----------- |
-| `brg⇥`             | browser.get |
-| `brgc⇥`            | browser.getCurrentUrl        |
-| `brp⇥`             | browser.pause                |
-| `brgl⇥`            | browser.getLocationAbsUrl    |
-| `brsl⇥`            | browser.setLocation          |
 | `bram⇥`            | browser.addMockModule        |
 | `brcm⇥`            | browser.clearMockModules     |
+| `brg⇥`             | browser.get |
+| `brgc⇥`            | browser.getCurrentUrl        |
+| `brgl⇥`            | browser.getLocationAbsUrl    |
+| `bris⇥`            | browser.ignoreSynchronization|
+| `brnb⇥`            | browser.navigate.back        |
+| `brnf⇥`            | browser.navigate.forward     |
+| `brp⇥`             | browser.pause                |
+| `brsl⇥`            | browser.setLocation          |
+| `brslp⇥`           | browser.sleep                |
 | `brw⇥`             | browser.wait                 |
 | `brwf⇥`            | browser.wait.function        |
 | `brwa⇥`            | browser.waitForAngular       |
-| `brslp⇥`           | browser.sleep                |
-| `brnb⇥`            | browser.navigate.back        |
-| `brnf⇥`            | browser.navigate.forward     |
-| `bris⇥`            | browser.ignoreSynchronization|
+
+
+
 
 
 

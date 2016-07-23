@@ -23,7 +23,6 @@
 		"description": "browser.getCurrentUrl",
 		"scope": "js"
 	},
-    
 	"browser.getLocationAbsUrl": {
 		"prefix" : "brgl",
 		"body" : "browser.getLocationAbsUrl($1);",
