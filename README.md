@@ -1,6 +1,28 @@
-# js README
+# Snippets de Protractor para Visual Studio Code
 
-This is the README for your extension "js". After writing up a brief description, we recommend including the following sections.
+##Snippets
+El simbolo `⇥` hace referencia a la tecla `Tab` 
+###Browser
+| Prefix (Trigger)   | Descripcion |
+| -------            | ----------- |
+| `brg⇥`             | browser.get |
+| `brgc⇥`            | browser.getCurrentUrl        |
+| `brp⇥`             | browser.pause                |
+| `brgl⇥`            | browser.getLocationAbsUrl    |
+| `brsl⇥`            | browser.setLocation          |
+| `bram⇥`            | browser.addMockModule        |
+| `brcm⇥`            | browser.clearMockModules     |
+| `brw⇥`             | browser.wait                 |
+| `brwf⇥`            | browser.wait.function        |
+| `brwa⇥`            | browser.waitForAngular       |
+| `brslp⇥`           | browser.sleep                |
+| `brnb⇥`            | browser.navigate.back        |
+| `brnf⇥`            | browser.navigate.forward     |
+| `bris⇥`            | browser.ignoreSynchronization|
+
+
+
+
 
 ## Features
 
