@@ -1,0 +1,28 @@
+/**
+* Snippets Protractor
+* Autor: ISORTEGAH
+* Fecha: 24/07/2016
+*/
+{
+    "element" : {
+        "prefix" : "el",
+        "body" : [
+            "element(${locator});"
+        ],
+        "description" : "element"
+    },
+    "element.all" : {
+        "prefix" : "ela",
+        "body" : [
+            "c"
+        ],
+        "description" : "element.all"
+    },
+    "element.all.clone" : {
+        "prefix" : "elac",
+        "body" : [
+            "element.all(${locator}).clone"
+        ],
+        "description" : "element.all.clone"
+    }
+}

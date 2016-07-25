@@ -20,7 +20,17 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | `brwf⇥`            | browser.wait.function        |
 | `brwa⇥`            | browser.waitForAngular       |
 
+###Element
+| Prefix (Trigger)   | Descripcion |
+| -------            | ----------- |
+| `el⇥`              | element              |
 
+
+###Element.all
+| Prefix (Trigger)   | Descripcion |
+| -------            | ----------- |
+| `ela⇥`             | element.all          |
+| `elac⇥`            | element.all.clone    |
 
 
 

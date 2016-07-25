@@ -1,3 +1,8 @@
+/**
+* Snippets Protractor
+* Autor: ISORTEGAH
+* Fecha: 20/07/2016
+*/
 {
 	"browser.addMockModule":{
     	"prefix" : "bram",
