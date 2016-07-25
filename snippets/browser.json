@@ -16,6 +16,13 @@
 		"description" : "browser.clearMockModules",
 		"scope"  : "js"
    },
+   "browser.debugger" : {
+	   "prefix" : "brd",
+	   "body" : [
+		   "browser.debugger($1);"
+	   ],
+	   "description" : "browser.debugger"
+   },
 	"brower.get": {
 		"prefix": "brg",
 		"body": "browser.get($1);",

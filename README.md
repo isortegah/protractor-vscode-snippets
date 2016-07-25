@@ -6,8 +6,9 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | Prefix (Trigger)   | Descripcion |
 | -------            | ----------- |
 | `bram⇥`            | browser.addMockModule        |
+| `brd⇥`             | browser.debugger             |
 | `brcm⇥`            | browser.clearMockModules     |
-| `brg⇥`             | browser.get |
+| `brg⇥`             | browser.get                  |
 | `brgc⇥`            | browser.getCurrentUrl        |
 | `brgl⇥`            | browser.getLocationAbsUrl    |
 | `bris⇥`            | browser.ignoreSynchronization|
@@ -31,6 +32,8 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | -------            | ----------- |
 | `ela⇥`             | element.all          |
 | `elac⇥`            | element.all.clone    |
+| `elaa⇥`            | element.all.all      |
+| `elaf⇥`            | element.all.filter   |
 
 
 

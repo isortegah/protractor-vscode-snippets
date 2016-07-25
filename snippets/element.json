@@ -24,5 +24,26 @@
             "element.all(${locator}).clone"
         ],
         "description" : "element.all.clone"
+    },
+    "element.all.all" : {
+        "prefix" : "elaa",
+        "body" : [
+            "element.all(${locator}).all(${locator2})"
+        ],
+        "description" : "element.all.all"
+    },
+    "element.all.filter" : {
+        "prefix" : "elaf",
+        "body" : [
+            "element.all(${locator}).filter(function(elem, index) {",
+            "/t${bodyFunction}",
+            "/**",
+            "/treturn elem.getText().then(function(text) {",
+            "/t/treturn text==${textoBuscado}",
+            "/t});",
+            "*/",
+            "}).first().click();"
+        ],
+        "description" : "element.all.filter"
     }
-}
+}    
