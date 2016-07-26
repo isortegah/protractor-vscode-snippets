@@ -74,5 +74,80 @@
             "element.all(${locator}).count();"
         ],
         "description" : "element.all.count"
+    },
+    "element.all.locator" : {
+        "prefix" : "elalc",
+        "body" : [
+            "element.all(${locator}).locator"
+        ],
+        "description" : "element.all.locator();"
+    },
+    "element.all.then" : {
+        "prefix" : "elath",
+        "body" : [
+            "element.all(${locator}).then( function (arr){",
+            "\t${bodyFunction}",
+            "})"
+        ],
+        "description" : "element.all.then"
+    },
+    "element.all.each" : {
+        "prefix" : "elaea",
+        "body" : [
+            "element.all(${locator}).each(function(element, index){",
+             "\t${bodyFunction}",   
+            "})"
+        ],
+        "description" : "element.all.each"
+    },
+    "element.all.map" : {
+        "prefix" : "elam",
+        "body" : [
+            "let items = element.all(${locator}).map(function(elm, index) {",
+            "\treturn {",
+            "\t\tindex: index,",
+            "\t\ttext: elm.getText(),",
+            "\t\tclass: elm.getAttribute('class')",
+            "\t};",
+            "});"
+        ],
+        "description" : "element.all.map"
+    },
+    "element.all.reduce" : {
+        "prefix" : "elar",
+        "body" : [
+            "let value = element.all(${locator}).reduce(function(acc, elem){",
+            "\treturn elem.getText().then(function(text) {",
+            "\t});",
+            "}, '');"
+        ],
+        "description" : "element.all.reduce"
+    },
+    "element.all.evaluate" : {
+        "prefix" : "elaev",
+        "body" : [
+            "let value = element.all(${locator}).evaluate('${elementScope}');"
+        ],
+        "description" : "element.all.evaluate"
+    },
+    "element.all.allowAnimations" : {
+        "prefix" : "elaal",
+        "body" : [
+            "element.all(${locator}).allowAnimations(${action});"
+        ],
+        "description" : "element.all.allowAnimations"
+    },
+
+    /**
+    * Sección element
+    */
+    "element.then" : {
+        "prefix" : "elth",
+        "body" : [
+            "element(${locator}).then(function(elem)",
+            "${bodyLocator}",
+            "});"
+        ],
+        "description" : "element.then"
     }
 }    
