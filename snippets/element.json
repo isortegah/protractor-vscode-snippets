@@ -45,5 +45,34 @@
             "}).first().click();"
         ],
         "description" : "element.all.filter"
+    },
+    "element.all.get" : {
+        "prefix" : "elag",
+        "body" : [
+            "let list = element.all(${locator});",
+            "list.get($1);"
+        ],
+        "description" : "element.all.get"
+    },
+    "element.all.first" : {
+        "prefix" : "elaft",
+        "body" : [
+            "element.all(${locator}).first();"
+        ],
+        "description" : "element.all.first"
+    },
+    "element.all.last" : {
+        "prefix" : "elalt",
+        "body" : [
+            "element.all(${locator}).last();"
+        ],
+        "description" : "element.all.last"
+    },
+    "element.all.count" : {
+        "prefix" : "elacn",
+        "body" : [
+            "element.all(${locator}).count();"
+        ],
+        "description" : "element.all.count"
     }
 }    

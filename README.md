@@ -34,6 +34,10 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | `elac⇥`            | element.all.clone    |
 | `elaa⇥`            | element.all.all      |
 | `elaf⇥`            | element.all.filter   |
+| `elag⇥`            | element.all.get      |
+| `elaft⇥`           | element.all.first    |
+| `elalt⇥`           | element.all.last     |
+| `elacn⇥`           | element.all.count    |
 
 
 
