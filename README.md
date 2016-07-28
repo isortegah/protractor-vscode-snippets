@@ -82,6 +82,10 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | `elementGetLocation⇥`     | element.getLocation               |
 | `elementIsEnabled⇥`       | element.isEnabled                 |
 | `elementIsSelected⇥`      | element.isSelected                |
+| `elementSubmit⇥`          | element.Submit                    |
+| `elementClear⇥`           | element.clear                     |
+| `elementIsDisplayed⇥`     | element.isDisplayed               |
+| `elementTakeScreenShot⇥`  | element.takeScreenshot            |
 
 
 

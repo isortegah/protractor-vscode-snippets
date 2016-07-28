@@ -95,5 +95,33 @@
             "element(${locator}).isSlected()"
         ],
         "description" : "element.isSelected"
+    },
+    "element.submit" : {
+        "prefix" : "elementSubmit",
+        "body" : [
+            "element(${locator}).submit()"
+        ],
+        "description" : "element.submit"
+    },
+    "element.clear" : {
+        "prefix" : "elementClear",
+        "body" : [
+            "element(${locator}).clear()"
+        ],
+        "description" : "element.clear"
+    },
+    "element.isDisplayed" : {
+        "prefix" : "elementIsDisplayed",
+        "body" : [
+            "element(${locator}).isDisplayed()"
+        ],
+        "description" : "element.isDisplayed"
+    },
+    "element.takeScreenshot" : {
+        "prefix" : "elementTakeScreenShot",
+        "body" : [
+            "element(${locator}).takeScreenshot().then((png) =>{});"
+        ],
+        "description" : "element.takeScreenshot"
     }
 }
