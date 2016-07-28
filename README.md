@@ -24,7 +24,14 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 ###Element
 | Prefix (Trigger)   | Descripcion |
 | -------            | ----------- |
-| `el⇥`              | element              |
+| `el⇥`              | element                  |
+| `elth⇥`            | element.then             |
+| `elc⇥`             | element.clone            |
+| `elwg⇥`            | element.getWebElement    |
+| `elal⇥`            | element.all              |
+| `elel⇥`            | element.element          |
+| `el$$⇥`            | element.$$               |
+| `el$⇥`             | element.$                |
 
 
 ###Element.all

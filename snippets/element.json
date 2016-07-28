@@ -4,13 +4,7 @@
 * Fecha: 24/07/2016
 */
 {
-    "element" : {
-        "prefix" : "el",
-        "body" : [
-            "element(${locator});"
-        ],
-        "description" : "element"
-    },
+    
     "element.all" : {
         "prefix" : "ela",
         "body" : [
@@ -141,6 +135,13 @@
     /**
     * Sección element
     */
+    "element" : {
+        "prefix" : "el",
+        "body" : [
+            "element(${locator});"
+        ],
+        "description" : "element"
+    },
     "element.then" : {
         "prefix" : "elth",
         "body" : [
@@ -149,5 +150,47 @@
             "});"
         ],
         "description" : "element.then"
+    },
+    "element.clone" : {
+        "prefix" : "elc",
+        "body" : [
+            "element(${locator}).clone;"
+        ],
+        "description" : "element.clone"
+    },
+    "element.getWebElement" : {
+        "prefix" : "elgw",
+        "body" : [
+            "element(${locator}).getWebElement();"
+        ],
+        "description" : "element.getWebElement"
+    },
+    "element.all" : {
+        "prefix" : "elalc",
+        "body" : [
+            "let item = element(${locator}).all(${locator2});"
+        ],
+        "description" : "element.all"
+    },
+    "element.element" : {
+        "prefix" : "elel",
+        "body" : [
+            "element(${locator}).element(${locator})"
+        ],
+        "description" : "element.element"
+    },
+    "element.$$" : {
+        "prefix" : "el$$",
+        "body" : [
+            "let items = element(${locator}).$$(${selector})"
+        ],
+        "description" : "element.$$"
+    },
+    "element.$" : {
+        "prefix" : "el$",
+        "body" : [
+            "element(${locator}).$(${selector})"
+        ],
+        "description" : "element.$"
     }
 }    
