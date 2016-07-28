@@ -78,7 +78,10 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | `elementGetCssValue⇥`     | element.getCssValue               |
 | `elementGetAttribute⇥`    | element.getAttribute              |
 | `elementGetText⇥`         | element.getText                   |
-| `elementGetSize⇥`         | element.getSize           |
+| `elementGetSize⇥`         | element.getSize                   |
+| `elementGetLocation⇥`     | element.getLocation               |
+| `elementIsEnabled⇥`       | element.isEnabled                 |
+| `elementIsSelected⇥`      | element.isSelected                |
 
 
 

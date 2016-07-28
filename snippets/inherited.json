@@ -74,5 +74,26 @@
             "element(${locator}).getSize()"
         ],
         "description" : "element.getSize"
-    }   
+    },
+    "element.getLocation" : {
+        "prefix" : "elementGetLocation",
+        "body" : [
+            "element(${locator}).getLocation()"
+        ],
+        "description" : "element.getLocation"
+    },
+    "element.isEnabled" : {
+        "prefix" : "elementIsEnabled",
+        "body" : [
+            "element(${locator}).isEnabled()"
+        ],
+        "description" : "element.isEnabled"
+    },
+    "element.isSelected" : {
+        "prefix" : "elementIsSelected",
+        "body" : [
+            "element(${locator}).isSlected()"
+        ],
+        "description" : "element.isSelected"
+    }
 }
