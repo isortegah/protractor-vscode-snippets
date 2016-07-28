@@ -4,5 +4,12 @@
 		"body": "it( '' , function () {\n\n});",
 		"description": "Función que contiene la llamada a los métodos",
 		"scope": "js"
+	},
+	"jasmine.objectContaining" : {
+		"prefix" : "jasmineObjectContaining",
+		"body" : [
+			"jasmine.objectContaining({ width: ${width}, height ${height}})"
+		],
+		"description" : "jasmine.objectContaining"
 	}
 }

@@ -53,5 +53,26 @@
             "element(${locator}).getCssValue()"
         ],
         "description" : "element.getCssValue"
+    },
+    "element.getAttribute" : {
+        "prefix" : "elementGetAttribute",
+        "body" : [
+            "element(${locator}).getAttribute(${atributo})"
+        ],
+        "description" : "element.getAttribute"
+    },
+    "element.getText" : {
+        "prefix" : "elementGetText",
+        "body" : [
+            "element(${locator}).getText()"
+        ],
+        "description" : "element.getText"
+    },
+    "element.getSize" : {
+        "prefix" : "elementGetSize",
+        "body" : [
+            "element(${locator}).getSize()"
+        ],
+        "description" : "element.getSize"
     }   
 }

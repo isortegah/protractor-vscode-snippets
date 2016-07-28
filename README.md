@@ -2,6 +2,13 @@
 
 ##Snippets
 El simbolo `⇥` hace referencia a la tecla `Tab` 
+
+###Jasmine
+| Prefix (Trigger)   | Descripcion |
+| -------            | ----------- |
+| `it⇥`                         | it                        |
+| `jasmineObjectContaining⇥`    | jasmine.objectContaining  |
+
 ###Browser
 | Prefix (Trigger)   | Descripcion |
 | -------            | ----------- |
@@ -69,6 +76,9 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | `elementSendKeys⇥`        | element.sendKeys                  |
 | `elementGetTagName⇥`      | element.getTagName                |
 | `elementGetCssValue⇥`     | element.getCssValue               |
+| `elementGetAttribute⇥`    | element.getAttribute              |
+| `elementGetText⇥`         | element.getText                   |
+| `elementGetSize⇥`         | element.getSize           |
 
 
 
