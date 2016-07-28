@@ -21,6 +21,9 @@
             },{
                 "language": "javascript",
                 "path": "./snippets/element.json"
+            },{
+                "language": "javascript",
+                "path": "./snippets/inherited.json"
             }
         ]
     }

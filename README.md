@@ -59,6 +59,12 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | `elaal⇥`           | element.all.allowAnimations |
 
 
+###Heredados de webdriver.WebElement
+| Prefix (Trigger)   | Descripcion |
+| -------            | ----------- |
+| `elgd⇥`           | element.getWebElement.getDriver   |
+| `elsr⇥`           | element.getWebElement.serialize   |
+| `elgf⇥`           | element.getWebElement.findElement |
 
 
 

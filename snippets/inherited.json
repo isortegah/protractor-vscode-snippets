@@ -1,0 +1,29 @@
+/**
+* Snippets Protractor
+* Autor: ISORTEGAH
+* Fecha: 28/07/2016
+*/
+{
+    "element.getWebElement.getDriver" : {
+        "prefix" : "elgd",
+        "body" : [
+            "var element = element(${locator}).getWebElement();",
+            "element.getDriver().findElement(${locator2});"
+        ],
+        "description" : "element.getWebElement.getDriver"
+    },
+    "element.getWebElement.serialize" : {
+        "prefix" : "elsr",
+        "body" : [
+            "element(${locator}).getWebElement().serialize(${function})"
+        ],
+        "description" : "element.getWebElement.serialize"
+    },
+    "element.getWebElement.findElement" : {
+        "prefix" : "elgf",
+        "body" : [
+            "element(${locator}).getWebElement().findElement(${locator})"
+        ],
+        "description" : "element.getWebElement.findElement"
+    }   
+}
