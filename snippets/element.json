@@ -213,5 +213,19 @@
             "element(${locator}).evaluate(${value})"
         ],
         "description" : "element.evaluate"
+    },
+    "element.allowAnimations" : {
+        "prefix" : "elall",
+        "body" : [
+            "element(${locator}).allowAnimations = ${boolean}"
+        ],
+        "description" : "element.allowAnimations"
+    },
+    "element.equals" : {
+        "prefix" : "eleq",
+        "body" : [
+            "element(${locator}).equals(${elementEq})"
+        ],
+        "description" : "element.equals"
     }
 } 

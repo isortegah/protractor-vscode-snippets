@@ -35,6 +35,8 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | `elip⇥`            | element.isPresent        |
 | `eliep⇥`           | element.isElementPresent |
 | `eleval⇥`          | element.evaluate         |
+| `elaa⇥`            | element.allowAnimations  |
+| `eleq⇥`            | element.equals           |
 
 
 ###Element.all
