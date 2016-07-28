@@ -5,90 +5,90 @@
 */
 {
 	"browser.addMockModule":{
-    	"prefix" : "bram",
+    	"prefix" : "browserAddMockModule",
     	"body"   : "browser.addMockModule($1);",
 		"description" : "browser.addMockModule",
 		"scope"  : "js"
    },
    "browser.clearMockModules":{
-    	"prefix" : "brcm",
+    	"prefix" : "browserClearMockModules",
     	"body"   : "browser.clearMockModules($1);",
 		"description" : "browser.clearMockModules",
 		"scope"  : "js"
    },
    "browser.debugger" : {
-	   "prefix" : "brd",
+	   "prefix" : "browserDebugger",
 	   "body" : [
 		   "browser.debugger($1);"
 	   ],
 	   "description" : "browser.debugger"
    },
 	"brower.get": {
-		"prefix": "brg",
+		"prefix": "broserGet",
 		"body": "browser.get($1);",
 		"description": "browser.get",
 		"scope": "js"	
 	},
     "browser.getCurrentUrl": {
-		"prefix": "brgc",
+		"prefix": "browserGetCurrentUrl",
 		"body": "browser.getCurrentUrl($1);",
 		"description": "browser.getCurrentUrl",
 		"scope": "js"
 	},
 	"browser.getLocationAbsUrl": {
-		"prefix" : "brgl",
+		"prefix" : "browserGetLocationAbsUrl",
 		"body" : "browser.getLocationAbsUrl($1);",
 		"description" : "browser.getLocationAbsUrl",
 		"scope" : "js"
 	},
   "browser.ignoreSynchronization" : {
-	  "prefix" : "bris",
+	  "prefix" : "browserIgnoreSynchronization",
 	  "body" : [
 		  "browser.ignoreSynchronization = $1;"
 	  ],
 	  "description" : "browser.ignoreSynchronization"
   },
   "browser.navigate.back" : {
-	  "prefix" : "brnb",
+	  "prefix" : "browserNavigateBack",
 	  "body" : [
 		  "browser.sleep($1);"
 	  ],
 	  "description" : "browser.navigate.back"
   },
   "browser.navigate.forward" : {
-	  "prefix" : "brnf",
+	  "prefix" : "browserNavigateForward",
 	  "body" : [
 		  "browser.navigate().forward();"
 	  ],
 	  "description" : "browser.navigate.forward"
   },
   "browser.pause": {
-		"prefix": "brp",
+		"prefix": "browserPause",
 		"body": "browser.pause($1);",
 		"description": "browser.pause",
 		"scope": "js"
 	},
   "browser.setLocation": {
-		"prefix": "brsl",
+		"prefix": "BrowserSetLocation",
     	"body"  : "browser.setLocation($1);",
 		"description" : "browser.setLocation",
 		"scope" : "js"
 	},
   "browser.sleep" : {
-	  "prefix" : "brslp",
+	  "prefix" : "browserSleep",
 	  "body" : [
 		  "browser.sleep($1);"
 	  ],
 	  "description" : "browser.sleep"
   },
   "browser.wait":{
-    	"prefix" : "brw",
+    	"prefix" : "browserWait",
     	"body"   : "browser.wait($1);",
 		"description" : "browser.wait",
 		"scope"  : "js"
    },
   "browser.wait.function" : {
-	   "prefix" : "brwf",
+	   "prefix" : "browserWaitFunction",
 	   "body" : [
 		   "browser.wait( function (){",
 		   "\treturn element($1).isPresent();",
@@ -97,7 +97,7 @@
 	   "description" : "browser.wait.function"
    },
   "browser.waitForAngular" : {
-    	"prefix" : "brwa",
+    	"prefix" : "browserWaitForAngular",
     	"body"   : "browser.waitForAngular();",
 		"description" : "browser.waitForAngular",
 		"scope"  : "js"

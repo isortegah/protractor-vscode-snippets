@@ -11,22 +11,22 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 
 ###Browser
 | Prefix (Trigger)   | Descripcion |
-| -------            | ----------- |
-| `bram⇥`            | browser.addMockModule        |
-| `brd⇥`             | browser.debugger             |
-| `brcm⇥`            | browser.clearMockModules     |
-| `brg⇥`             | browser.get                  |
-| `brgc⇥`            | browser.getCurrentUrl        |
-| `brgl⇥`            | browser.getLocationAbsUrl    |
-| `bris⇥`            | browser.ignoreSynchronization|
-| `brnb⇥`            | browser.navigate.back        |
-| `brnf⇥`            | browser.navigate.forward     |
-| `brp⇥`             | browser.pause                |
-| `brsl⇥`            | browser.setLocation          |
-| `brslp⇥`           | browser.sleep                |
-| `brw⇥`             | browser.wait                 |
-| `brwf⇥`            | browser.wait.function        |
-| `brwa⇥`            | browser.waitForAngular       |
+| -------                           | ----------- |
+| `browserAddMockModule⇥`           | browser.addMockModule        |
+| `browserClearMockModules⇥`        | browser.clearMockModules     |
+| `browserDebugger⇥`                | browser.debugger             |
+| `browserGet⇥`                     | browser.get                  |
+| `browserGetCurrentUrl⇥`           | browser.getCurrentUrl        |
+| `browserGetLocationAbsUrl⇥`       | browser.getLocationAbsUrl    |
+| `browserIgnoreSynchronization⇥`   | browser.ignoreSynchronization|
+| `browserNavigateBack⇥`            | browser.navigate.back        |
+| `browserNavigateForward⇥`         | browser.navigate.forward     |
+| `browserPause⇥`                   | browser.pause                |
+| `BrowserSetLocation⇥`             | browser.setLocation          |
+| `browserSleep⇥`                   | browser.sleep                |
+| `browserWait⇥`                    | browser.wait                 |
+| `browserWaitFunction⇥`            | browser.wait.function        |
+| `browserWaitForAngular⇥`          | browser.waitForAngular       |
 
 ###Element
 | Prefix (Trigger)   | Descripcion |
