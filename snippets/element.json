@@ -6,28 +6,28 @@
 {
     
     "element.all" : {
-        "prefix" : "ela",
+        "prefix" : "elementAll",
         "body" : [
             "c"
         ],
         "description" : "element.all"
     },
     "element.all.clone" : {
-        "prefix" : "elac",
+        "prefix" : "elementAllClone",
         "body" : [
             "element.all(${locator}).clone"
         ],
         "description" : "element.all.clone"
     },
     "element.all.all" : {
-        "prefix" : "elaa",
+        "prefix" : "elementAllAll",
         "body" : [
             "element.all(${locator}).all(${locator2})"
         ],
         "description" : "element.all.all"
     },
     "element.all.filter" : {
-        "prefix" : "elaf",
+        "prefix" : "elementAllFilter",
         "body" : [
             "element.all(${locator}).filter(function(elem, index) {",
             "/t${bodyFunction}",
@@ -41,7 +41,7 @@
         "description" : "element.all.filter"
     },
     "element.all.get" : {
-        "prefix" : "elag",
+        "prefix" : "elementAllGet",
         "body" : [
             "let list = element.all(${locator});",
             "list.get($1);"
@@ -49,35 +49,35 @@
         "description" : "element.all.get"
     },
     "element.all.first" : {
-        "prefix" : "elaft",
+        "prefix" : "elementAllFirst",
         "body" : [
             "element.all(${locator}).first();"
         ],
         "description" : "element.all.first"
     },
     "element.all.last" : {
-        "prefix" : "elalt",
+        "prefix" : "elementAllLast",
         "body" : [
             "element.all(${locator}).last();"
         ],
         "description" : "element.all.last"
     },
     "element.all.count" : {
-        "prefix" : "elacn",
+        "prefix" : "elementAllCount",
         "body" : [
             "element.all(${locator}).count();"
         ],
         "description" : "element.all.count"
     },
     "element.all.locator" : {
-        "prefix" : "elalc",
+        "prefix" : "elementAllLocator",
         "body" : [
             "element.all(${locator}).locator"
         ],
         "description" : "element.all.locator();"
     },
     "element.all.then" : {
-        "prefix" : "elath",
+        "prefix" : "elementAllThen",
         "body" : [
             "element.all(${locator}).then( function (arr){",
             "\t${bodyFunction}",
@@ -86,7 +86,7 @@
         "description" : "element.all.then"
     },
     "element.all.each" : {
-        "prefix" : "elaea",
+        "prefix" : "elementAllEach",
         "body" : [
             "element.all(${locator}).each(function(element, index){",
              "\t${bodyFunction}",   
@@ -95,7 +95,7 @@
         "description" : "element.all.each"
     },
     "element.all.map" : {
-        "prefix" : "elam",
+        "prefix" : "elementAllMap",
         "body" : [
             "let items = element.all(${locator}).map(function(elm, index) {",
             "\treturn {",
@@ -108,7 +108,7 @@
         "description" : "element.all.map"
     },
     "element.all.reduce" : {
-        "prefix" : "elar",
+        "prefix" : "elementAllReduce",
         "body" : [
             "let value = element.all(${locator}).reduce(function(acc, elem){",
             "\treturn elem.getText().then(function(text) {",
@@ -118,14 +118,14 @@
         "description" : "element.all.reduce"
     },
     "element.all.evaluate" : {
-        "prefix" : "elaev",
+        "prefix" : "elementAllEvaluate",
         "body" : [
             "let value = element.all(${locator}).evaluate('${elementScope}');"
         ],
         "description" : "element.all.evaluate"
     },
     "element.all.allowAnimations" : {
-        "prefix" : "elaal",
+        "prefix" : "elementAllAllowAnimations",
         "body" : [
             "element.all(${locator}).allowAnimations(${action});"
         ],

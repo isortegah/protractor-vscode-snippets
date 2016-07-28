@@ -47,23 +47,23 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 
 
 ###Element.all
-| Prefix (Trigger)   | Descripcion |
-| -------            | ----------- |
-| `ela⇥`             | element.all          |
-| `elac⇥`            | element.all.clone    |
-| `elaa⇥`            | element.all.all      |
-| `elaf⇥`            | element.all.filter   |
-| `elag⇥`            | element.all.get      |
-| `elaft⇥`           | element.all.first    |
-| `elalt⇥`           | element.all.last     |
-| `elacn⇥`           | element.all.count    |
-| `elalc⇥`           | element.all.locator  |
-| `elath⇥`           | element.all.then     |
-| `elaea⇥`           | element.all.each     |
-| `elam⇥`            | element.all.map      |
-| `elar⇥`            | element.all.reduce   |
-| `elaev⇥`           | element.all.evaluate |
-| `elaal⇥`           | element.all.allowAnimations |
+| Prefix (Trigger)              | Descripcion |
+| -------                       | ----------- |
+| `elementAll⇥`                 | element.all          |
+| `elementAllClone⇥`            | element.all.clone    |
+| `elementAllAll⇥`              | element.all.all      |
+| `elementAllFilter⇥`           | element.all.filter   |
+| `elementAllGet⇥`              | element.all.get      |
+| `elementAllFirst⇥`            | element.all.first    |
+| `elementAllLast⇥`             | element.all.last     |
+| `elementAllCount⇥`            | element.all.count    |
+| `elementAllLocator⇥`          | element.all.locator  |
+| `elementAllThen⇥`             | element.all.then     |
+| `elementAllEach⇥`             | element.all.each     |
+| `elementAllMap⇥`              | element.all.map      |
+| `elementAllReduce⇥`           | element.all.reduce   |
+| `elementAllEvaluate⇥`         | element.all.evaluate |
+| `elementAllAllowAnimations⇥`  | element.all.allowAnimations |
 
 
 ###Heredados de webdriver.WebElement
