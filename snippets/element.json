@@ -136,14 +136,14 @@
     * Sección element
     */
     "element" : {
-        "prefix" : "el",
+        "prefix" : "element",
         "body" : [
             "element(${locator});"
         ],
         "description" : "element"
     },
     "element.then" : {
-        "prefix" : "elth",
+        "prefix" : "elementThen",
         "body" : [
             "element(${locator}).then(function(elem)",
             "${bodyLocator}",
@@ -152,77 +152,77 @@
         "description" : "element.then"
     },
     "element.clone" : {
-        "prefix" : "elc",
+        "prefix" : "elementClone",
         "body" : [
             "element(${locator}).clone;"
         ],
         "description" : "element.clone"
     },
     "element.getWebElement" : {
-        "prefix" : "elgw",
+        "prefix" : "elementGetWebElement",
         "body" : [
             "element(${locator}).getWebElement();"
         ],
         "description" : "element.getWebElement"
     },
     "element.all" : {
-        "prefix" : "elalc",
+        "prefix" : "elementSubAll",
         "body" : [
             "let item = element(${locator}).all(${locator2});"
         ],
         "description" : "element.all"
     },
     "element.element" : {
-        "prefix" : "elel",
+        "prefix" : "elementElement",
         "body" : [
             "element(${locator}).element(${locator})"
         ],
         "description" : "element.element"
     },
     "element.$$" : {
-        "prefix" : "el$$",
+        "prefix" : "element$$",
         "body" : [
             "let items = element(${locator}).$$(${selector})"
         ],
         "description" : "element.$$"
     },
     "element.$" : {
-        "prefix" : "el$",
+        "prefix" : "element$",
         "body" : [
             "element(${locator}).$(${selector})"
         ],
         "description" : "element.$"
     },
     "element.isPresent" : {
-        "prefix" : "elip",
+        "prefix" : "elementIsPresent",
         "body" : [
             "element(${lcator}).isPresent()"
         ],
         "description" : "element.isPresent"
     },
     "element.isElementPresent" : {
-        "prefix" : "eliep",
+        "prefix" : "elementIsElementPresent",
         "body" : [
             "element(${locator}).isElementPresent(${selector})"
         ],
         "description" : "element.isElementPresent"
     },
     "element.evaluate" : {
-        "prefix" : "eleval",
+        "prefix" : "elementEvaluate",
         "body" : [
             "element(${locator}).evaluate(${value})"
         ],
         "description" : "element.evaluate"
     },
     "element.allowAnimations" : {
-        "prefix" : "elall",
+        "prefix" : "elementAllowAnimationselall",
         "body" : [
             "element(${locator}).allowAnimations = ${boolean}"
         ],
         "description" : "element.allowAnimations"
     },
     "element.equals" : {
-        "prefix" : "eleq",
+        "prefix" : "elementEquals",
         "body" : [
             "element(${locator}).equals(${elementEq})"
         ],

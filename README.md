@@ -31,19 +31,19 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 ###Element
 | Prefix (Trigger)   | Descripcion |
 | -------            | ----------- |
-| `el⇥`              | element                  |
-| `elth⇥`            | element.then             |
-| `elc⇥`             | element.clone            |
-| `elwg⇥`            | element.getWebElement    |
-| `elal⇥`            | element.all              |
-| `elel⇥`            | element.element          |
-| `el$$⇥`            | element.$$               |
-| `el$⇥`             | element.$                |
-| `elip⇥`            | element.isPresent        |
-| `eliep⇥`           | element.isElementPresent |
-| `eleval⇥`          | element.evaluate         |
-| `elaa⇥`            | element.allowAnimations  |
-| `eleq⇥`            | element.equals           |
+| `element⇥`                        | element                  |
+| `elementThen⇥`                    | element.then             |
+| `elementClone⇥`                   | element.clone            |
+| `elementGetWebElement⇥`           | element.getWebElement    |
+| `elementSubAll⇥`                  | element.all              |
+| `elementElement⇥`                 | element.element          |
+| `element$$⇥`                      | element.$$               |
+| `element$⇥`                       | element.$                |
+| `elementIsPresent⇥`               | element.isPresent        |
+| `elementIsElementPresent⇥`        | element.isElementPresent |
+| `elementEvaluate⇥`                | element.evaluate         |
+| `elementAllowAnimationselall⇥`    | element.allowAnimations  |
+| `elementEquals⇥`                  | element.equals           |
 
 
 ###Element.all
