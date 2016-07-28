@@ -62,13 +62,13 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 ###Heredados de webdriver.WebElement
 | Prefix (Trigger)   | Descripcion |
 | -------            | ----------- |
-| `elgd⇥`           | element.getWebElement.getDriver   |
-| `elsr⇥`           | element.getWebElement.serialize   |
-| `elgf⇥`           | element.getWebElement.findElement |
-| `elcl⇥`           | element.click                     |
-| `elsk⇥`           | element.sendKeys                  |
-| `elgtn⇥`          | element.getTagName                |
-| `elgcv⇥`          | element.getCssValue               |
+| `elementGetDriver⇥`       | element.getWebElement.getDriver   |
+| `elementSerialize⇥`       | element.getWebElement.serialize   |
+| `elementfindElement⇥`     | element.getWebElement.findElement |
+| `elementClick⇥`           | element.click                     |
+| `elementSendKeys⇥`        | element.sendKeys                  |
+| `elementGetTagName⇥`      | element.getTagName                |
+| `elementGetCssValue⇥`     | element.getCssValue               |
 
 
 

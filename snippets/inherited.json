@@ -5,7 +5,7 @@
 */
 {
     "element.getWebElement.getDriver" : {
-        "prefix" : "elgd",
+        "prefix" : "elementGetDriver",
         "body" : [
             "var element = element(${locator}).getWebElement();",
             "element.getDriver().findElement(${locator2});"
@@ -13,42 +13,42 @@
         "description" : "element.getWebElement.getDriver"
     },
     "element.getWebElement.serialize" : {
-        "prefix" : "elsr",
+        "prefix" : "elementSerialize",
         "body" : [
             "element(${locator}).getWebElement().serialize(${function})"
         ],
         "description" : "element.getWebElement.serialize"
     },
     "element.getWebElement.findElement" : {
-        "prefix" : "elgf",
+        "prefix" : "elementfindElement",
         "body" : [
             "element(${locator}).getWebElement().findElement(${locator})"
         ],
         "description" : "element.getWebElement.findElement"
     },
     "element.click" : {
-        "prefix" : "elcl",
+        "prefix" : "elementClick",
         "body" : [
             "element(${locator}).click()"
         ],
         "description" : "element.click"
     },
     "element.sendKeys" : {
-        "prefix" : "elsk",
+        "prefix" : "elementSendKeys",
         "body" : [
             "element(${locator}).sendkeys(${keys})"
         ],
         "description" : "element.sendKeys"
     },
     "element.getTagName" : {
-        "prefix" : "elgtn",
+        "prefix" : "elementGetTagName",
         "body" : [
             "element(${locator}).getTagName()"
         ],
         "description" : "element.getTagName"
     },
     "element.getCssValue" : {
-        "prefix" : "elgcv",
+        "prefix" : "elementGetCssValue",
         "body" : [
             "element(${locator}).getCssValue()"
         ],
