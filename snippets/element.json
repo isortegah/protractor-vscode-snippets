@@ -192,5 +192,26 @@
             "element(${locator}).$(${selector})"
         ],
         "description" : "element.$"
+    },
+    "element.isPresent" : {
+        "prefix" : "elip",
+        "body" : [
+            "element(${lcator}).isPresent()"
+        ],
+        "description" : "element.isPresent"
+    },
+    "element.isElementPresent" : {
+        "prefix" : "eliep",
+        "body" : [
+            "element(${locator}).isElementPresent(${selector})"
+        ],
+        "description" : "element.isElementPresent"
+    },
+    "element.evaluate" : {
+        "prefix" : "eleval",
+        "body" : [
+            "element(${locator}).evaluate(${value})"
+        ],
+        "description" : "element.evaluate"
     }
-}    
+} 

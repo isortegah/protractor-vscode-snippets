@@ -32,6 +32,9 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | `elel⇥`            | element.element          |
 | `el$$⇥`            | element.$$               |
 | `el$⇥`             | element.$                |
+| `elip⇥`            | element.isPresent        |
+| `eliep⇥`           | element.isElementPresent |
+| `eleval⇥`          | element.evaluate         |
 
 
 ###Element.all
