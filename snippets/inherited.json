@@ -25,5 +25,33 @@
             "element(${locator}).getWebElement().findElement(${locator})"
         ],
         "description" : "element.getWebElement.findElement"
+    },
+    "element.click" : {
+        "prefix" : "elcl",
+        "body" : [
+            "element(${locator}).click()"
+        ],
+        "description" : "element.click"
+    },
+    "element.sendKeys" : {
+        "prefix" : "elsk",
+        "body" : [
+            "element(${locator}).sendkeys(${keys})"
+        ],
+        "description" : "element.sendKeys"
+    },
+    "element.getTagName" : {
+        "prefix" : "elgtn",
+        "body" : [
+            "element(${locator}).getTagName()"
+        ],
+        "description" : "element.getTagName"
+    },
+    "element.getCssValue" : {
+        "prefix" : "elgcv",
+        "body" : [
+            "element(${locator}).getCssValue()"
+        ],
+        "description" : "element.getCssValue"
     }   
 }

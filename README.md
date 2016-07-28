@@ -65,6 +65,10 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | `elgd⇥`           | element.getWebElement.getDriver   |
 | `elsr⇥`           | element.getWebElement.serialize   |
 | `elgf⇥`           | element.getWebElement.findElement |
+| `elcl⇥`           | element.click                     |
+| `elsk⇥`           | element.sendKeys                  |
+| `elgtn⇥`          | element.getTagName                |
+| `elgcv⇥`          | element.getCssValue               |
 
 
 
