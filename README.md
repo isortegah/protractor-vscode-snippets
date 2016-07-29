@@ -12,21 +12,24 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 ###Browser
 | Prefix (Trigger)   | Descripcion |
 | -------                           | ----------- |
-| `browserAddMockModule⇥`           | browser.addMockModule        |
-| `browserClearMockModules⇥`        | browser.clearMockModules     |
-| `browserDebugger⇥`                | browser.debugger             |
-| `browserGet⇥`                     | browser.get                  |
-| `browserGetCurrentUrl⇥`           | browser.getCurrentUrl        |
-| `browserGetLocationAbsUrl⇥`       | browser.getLocationAbsUrl    |
-| `browserIgnoreSynchronization⇥`   | browser.ignoreSynchronization|
-| `browserNavigateBack⇥`            | browser.navigate.back        |
-| `browserNavigateForward⇥`         | browser.navigate.forward     |
-| `browserPause⇥`                   | browser.pause                |
-| `BrowserSetLocation⇥`             | browser.setLocation          |
-| `browserSleep⇥`                   | browser.sleep                |
-| `browserWait⇥`                    | browser.wait                 |
-| `browserWaitFunction⇥`            | browser.wait.function        |
-| `browserWaitForAngular⇥`          | browser.waitForAngular       |
+| `browserAddMockModule⇥`           | browser.addMockModule                 |
+| `browserClearMockModules⇥`        | browser.clearMockModules              |
+| `browserDebugger⇥`                | browser.debugger                      |
+| `browserForkNewDriverInstance⇥`   | browser.forkNewDriverInstance         |
+| `browserGet⇥`                     | browser.get                           |
+| `browserGetCurrentUrl⇥`           | browser.getCurrentUrl                 |
+| `browserGetLocationAbsUrl⇥`       | browser.getLocationAbsUrl             |
+| `browserGetProcessedConfig⇥`      | browser.browserGetProcessedConfig     |
+| `browserIgnoreSynchronization⇥`   | browser.ignoreSynchronization         |
+| `browserNavigateBack⇥`            | browser.navigate.back                 |
+| `browserNavigateForward⇥`         | browser.navigate.forward              |
+| `browserPause⇥`                   | browser.pause                         |
+| `browserRestart⇥`                 | browser.restart                   |
+| `browserSetLocation⇥`             | browser.setLocation                   |
+| `browserSleep⇥`                   | browser.sleep                         |
+| `browserWait⇥`                    | browser.wait                          |
+| `browserWaitFunction⇥`            | browser.wait.function                 |
+| `browserWaitForAngular⇥`          | browser.waitForAngular                |
 
 ###Element
 | Prefix (Trigger)   | Descripcion |
