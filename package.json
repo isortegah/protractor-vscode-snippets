@@ -1,6 +1,6 @@
 {
     "name": "protractor-vscode-snippets",
-    "description": "snippets for better workflow when performing test automation E2E with protractor.",
+    "description": "snippets for better workflow",
     "version": "0.0.1",
     "publisher": "isortegah",
     "engines": {
