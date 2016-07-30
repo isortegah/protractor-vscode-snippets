@@ -1,4 +1,6 @@
-# Snippets de Protractor para Visual Studio Code
+Snippets de Protractor para Visual Studio Code
+============================
+
 **Mejorando la experiencia de protractor en Vscode **
 ##Snippets
 El simbolo `⇥` hace referencia a la tecla `Tab` 
