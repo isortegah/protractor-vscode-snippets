@@ -23,6 +23,20 @@
 		],
 		"description" : "browser.debugger"
 	},
+	"browser.findElement" : {
+		"prefix" : "browserFindElement",
+		"body" : [
+			"browser.findElement(${locator})"
+		],
+		"description" : "browser.findElement"
+	},
+	"browser.findElements" : {
+		"prefix" : "browserfindElements",
+		"body" : [
+			"browser.findElements(${locator})"
+		],
+		"description" : "browser.findElements"
+	},
 	"browser.forkNewDriverInstance" : {
 		"prefix" : "browserForkNewDriverInstance",
 		"body" : [
@@ -61,6 +75,13 @@
 			"browser.ignoreSynchronization = $1;"
 		],
 		"description" : "browser.ignoreSynchronization"
+	},
+	"browser.isElementPresent" : {
+		"prefix" : "browserIsElementPresent",
+		"body" : [
+			"browser.isElementPresent(${locator/element})"
+		],
+		"description" : "browser.isElementPresent"
 	},
 	"browser.navigate.back" : {
 		"prefix" : "browserNavigateBack",
