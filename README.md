@@ -108,7 +108,12 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | `byRepeaterRow⇥`                | by.repeater.row        |
 | `byRepeaterColumn⇥`             | by.repeater.column     |
 | `byRepeaterRowColumn⇥`          | by.repeater.row.column |
-
+| `byExactRepeater⇥`              | by.exactRepeater       |
+| `byCssContainingText⇥`          | by.cssContainingText   |
+| `byOptions⇥`                    | by.options             |
+| `byDeepCss⇥`                    | by.deepCss             |
+| `byClassName⇥`                  | by.className           |
+| `byCss⇥`                        | by.css                 |
 
 ## Features
 

@@ -75,5 +75,47 @@
        "by.repeater($1).row($2).column($3)"
      ],
      "description" : "by.repeater.row.column"
+   },
+   "by.exactRepeater" : {
+     "prefix" : "byExactRepeater",
+     "body" : [
+       "by.exactRepeater(${repeatDescriptor})"
+     ],
+     "description" : "by.exactRepeater"
+   },
+   "by.cssContainingText" : {
+     "prefix" : "byCssContainingText",
+     "body" : [
+       "by.cssContainingText(${cssSelector} , ${searchString})"
+     ],
+     "description" : "by.cssContainingText"
+   },
+   "by.options" : {
+     "prefix" : "byOptions",
+     "body" : [
+       "by.options(${optionsDescriptor})"
+     ],
+     "description" : "by.options"
+   },
+   "by.deepCss" : {
+     "prefix" : "byDeepCss",
+     "body" : [
+       "by.deepCss(${selector})"
+     ],
+     "description" : "by.deepCss"
+   },
+   "by.className" : {
+     "prefix" : "byClassName",
+     "body" : [
+       "by.className(${class})"
+     ],
+     "description" : "by.className"
+   },
+   "by.css" : {
+     "prefix" : "byCss",
+     "body" : [
+       "by.css(${selector})"
+     ],
+     "description" : "by.css"
    }
 }
