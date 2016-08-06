@@ -21,17 +21,59 @@
      "description" : "by.binding"
    },
    "by.exactBinding" : {
-     "prefix" : "byexactbinding",
+     "prefix" : "byExactBinding",
      "body" : [
        "by.exactBinding(${binding})"
      ],
      "description" : "by.exactBinding"
    },
    "by.model" : {
-     "prefix" : "bymodel",
+     "prefix" : "byModel",
      "body" : [
        "by.model(${modelName})"
      ],
      "description" : "by.model"
+   },
+   "by.buttonText" : {
+     "prefix" : "byButtonText",
+     "body" : [
+       "by.buttonText($1)"
+     ],
+     "description" : "by.buttonText"
+   },
+   "by.partialButtonText" : {
+     "prefix" : "bypartialButtonText",
+     "body" : [
+       "by.partialButtonText($1)"
+     ],
+     "description" : "by.partialButtonText"
+   },
+   "by.repeater" : {
+     "prefix" : "byRepeater",
+     "body" : [
+       "by.repeater($1)"
+     ],
+     "description" : "by.repeater"
+   },
+   "by.repeater.row" : {
+     "prefix" : "byRepeaterRow",
+     "body" : [
+       "by.repeater($1).row($2)"
+     ],
+     "description" : "by.repeater.row"
+   },
+   "by.repeater.column" : {
+     "prefix" : "byRepeaterColumn",
+     "body" : [
+       "by.repeater($1).column($2)"
+     ],
+     "description" : "by.repeater.column"
+   },
+   "by.repeater.row.column" : {
+     "prefix" : "byRepeaterRowColumn",
+     "body" : [
+       "by.repeater($1).row($2).column($3)"
+     ],
+     "description" : "by.repeater.row.column"
    }
 }

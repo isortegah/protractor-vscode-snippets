@@ -103,6 +103,11 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | `bybinding⇥`                    | by.binding             |
 | `byexactbinding⇥`               | by.exactBinding        |
 | `bymodel⇥`                      | by.model               |
+| `byButtonText⇥`                 | by.buttonText          |
+| `byRepeater⇥`                   | by.repeater            |
+| `byRepeaterRow⇥`                | by.repeater.row        |
+| `byRepeaterColumn⇥`             | by.repeater.column     |
+| `byRepeaterRowColumn⇥`          | by.repeater.row.column |
 
 
 ## Features

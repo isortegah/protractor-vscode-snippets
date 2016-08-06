@@ -31,7 +31,7 @@
 		"description" : "browser.findElement"
 	},
 	"browser.findElements" : {
-		"prefix" : "browserfindElements",
+		"prefix" : "browserFindElements",
 		"body" : [
 			"browser.findElements(${locator})"
 		],
