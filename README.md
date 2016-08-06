@@ -114,6 +114,9 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | `byDeepCss⇥`                    | by.deepCss             |
 | `byClassName⇥`                  | by.className           |
 | `byCss⇥`                        | by.css                 |
+| `byId⇥`                         | by.id                  |
+| `byLinkText⇥`                   | by.linkText            |
+| `byJs⇥`                         | by.js                  |
 
 ## Features
 

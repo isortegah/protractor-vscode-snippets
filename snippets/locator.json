@@ -117,5 +117,28 @@
        "by.css(${selector})"
      ],
      "description" : "by.css"
+   },
+   "by.id" : {
+     "prefix" : "byId",
+     "body" : [
+       "by.id(${id})"
+     ],
+     "description" : "by.id"
+   },
+   "by.linkText" : {
+     "prefix" : "by.LinkText",
+     "body" : [
+       "by.linkText(${text})"
+     ],
+     "description" : "by.linkText"
+   },
+   "by.js" : {
+     "prefix" : "byJs",
+     "body" : [
+       "by.js(function(){",
+       "${bodyFunction}",
+       "})"
+     ],
+     "description" : "by.js"
    }
 }
