@@ -8,7 +8,7 @@
     "element.all" : {
         "prefix" : "elementAll",
         "body" : [
-            "c"
+            "element.all(${locator})"
         ],
         "description" : "element.all"
     },

@@ -1,7 +1,8 @@
 Snippets de Protractor para Visual Studio Code
 ============================
 
-**Mejorando la experiencia de protractor en Vscode **
+Mejorando la experiencia de protractor en Vscode
+
 ##Snippets
 El simbolo `⇥` hace referencia a la tecla `Tab` 
 
@@ -90,12 +91,18 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | `elementGetLocation⇥`     | element.getLocation               |
 | `elementIsEnabled⇥`       | element.isEnabled                 |
 | `elementIsSelected⇥`      | element.isSelected                |
-| `elementSubmit⇥`          | element.Submit                    |
+| `elementSubmit⇥`          | element.submit                    |
 | `elementClear⇥`           | element.clear                     |
 | `elementIsDisplayed⇥`     | element.isDisplayed               |
 | `elementTakeScreenShot⇥`  | element.takeScreenshot            |
 
-
+###BY
+| Prefix (Trigger)              | Descripcion |
+| -------                       | ----------- |
+| `byaddlocator⇥`                 | by.addLocator          |
+| `bybinding⇥`                    | by.binding             |
+| `byexactbinding⇥`               | by.exactBinding        |
+| `bymodel⇥`                      | by.model               |
 
 
 ## Features
