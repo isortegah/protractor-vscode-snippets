@@ -23,6 +23,9 @@
             },{
                 "language": "javascript",
                 "path": "./snippets/inherited.json"
+            },{
+                "language": "javascript",
+                "path": "./snippets/locator.json"
             }
         ]
     }
