@@ -122,6 +122,14 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | `byTagName⇥`                    | by.tagName             |
 | `byXpath⇥`                      | by.xpath               |
 
+
+###Expected Conditions
+| Prefix (Trigger)              | Descripcion |
+| -------                       | ----------- |
+| `expectNot⇥`                  | expect.not          |
+| `expectAnd⇥`                  | expect.and          |
+
+
 ## Features
 
 Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.

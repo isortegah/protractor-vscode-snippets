@@ -1,0 +1,24 @@
+/**
+* Snippets Protractor
+* Autor: ISORTEGAH
+* Fecha: 06/08/2016
+*/
+{
+    "expect.not" : {
+        "prefix" : "expectNot",
+        "body" : [
+            "expect(${element}).not(${expectedCondition})"
+        ],
+        "description" : "expect.not"
+    },
+    "expect.and" : {
+        "prefix" : "expectAnd",
+        "body" : [
+            "var EC = protractor.ExpectedConditions;",
+            "browser.wait(",
+            "\tEC.and(${expect1}, ${expect2})",
+            ", ${numberWait});"
+        ],
+        "description" : "expect.and"
+    }
+}
