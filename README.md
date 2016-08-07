@@ -117,6 +117,10 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | `byId⇥`                         | by.id                  |
 | `byLinkText⇥`                   | by.linkText            |
 | `byJs⇥`                         | by.js                  |
+| `byName⇥`                       | by.name                |
+| `byPartialLinkText⇥`            | by.partialLinkText     |
+| `byTagName⇥`                    | by.tagName             |
+| `byXpath⇥`                      | by.xpath               |
 
 ## Features
 

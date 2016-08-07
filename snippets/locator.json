@@ -140,5 +140,33 @@
        "})"
      ],
      "description" : "by.js"
+   },
+   "by.name" : {
+     "prefix" : "byName",
+     "body" : [
+       "by.name(${name})"
+     ],
+     "description" : "by.name"
+   },
+   "by.partialLinkText" : {
+	   "prefix" : "byPartialLinkText",
+	   "body" : [
+		   "by.partialLinkText(${text})"
+	   ],
+	   "description" : "by.partialLinkText"
+   },
+   "by.tagName" : {
+	   "prefix" : "byTagName",
+	   "body" : [
+		   "by.tagName(${tagName})"
+	   ],
+	   "description" : "by.tagName"
+   },
+   "by.xpath" : {
+	   "prefix" : "byXpath",
+	   "body" : [
+		   "by.xpath(${xpath})"
+	   ],
+	   "description" : "by.xpath"
    }
 }
