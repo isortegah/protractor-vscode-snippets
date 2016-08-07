@@ -20,5 +20,25 @@
             ", ${numberWait});"
         ],
         "description" : "expect.and"
+    },
+    "expect.alertIsPresent" : {
+        "prefix" : "expectAlertIsPresent",
+        "body" : [
+            "var EC = protractor.ExpectedConditions;",
+            "browser.wait(",
+            "\tEC.alertIsPresent()",
+            ", ${numberWait});"
+        ],
+        "description" : "expect.alertIsPresent"
+    },
+    "expect.elementToBeClickable" : {
+        "prefix" : "expectElementToBeClickable",
+        "body" : [
+            "var EC = protractor.ExpectedConditions;",
+            "browser.wait(",
+            "\tEC.elementToBeClickable(${element})",
+            ", ${numberWait});"
+        ],
+        "description" : "expect.elementToBeClickable"
     }
 }
