@@ -11,5 +11,30 @@
 			"jasmine.objectContaining({ width: ${width}, height ${height}})"
 		],
 		"description" : "jasmine.objectContaining"
+	},
+	"describe" : {
+		"prefix" : "describe",
+		"body" : [
+			"describe('$1', function() {",
+			"\t${body}",
+			"});"
+		],
+		"description" : "describe"
+	},
+	"beforeAll" : {
+		"prefix" : "beforeAll",
+		"body" : [
+			"beforeAll( function (){",
+			"\t${body}",
+			"})"
+		],
+		"description" : "beforeAll"
+	},
+	"require" : {
+		"prefix" : "require",
+		"body" : [
+			"require('${path}');"
+		],
+		"description" : "require"
 	}
 }
