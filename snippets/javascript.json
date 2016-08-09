@@ -15,7 +15,7 @@
 	"describe" : {
 		"prefix" : "describe",
 		"body" : [
-			"describe('$1', function() {",
+			"describe('${descricpion}', function() {",
 			"\t${body}",
 			"});"
 		],
@@ -36,5 +36,12 @@
 			"require('${path}');"
 		],
 		"description" : "require"
+	},
+	"consoleLog" : {
+		"prefix" : "consoleLog",
+		"body" : [
+			"console.log($1);"
+		],
+		"description" : "consoleLog"
 	}
 }
