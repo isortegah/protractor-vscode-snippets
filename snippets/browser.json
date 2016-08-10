@@ -4,6 +4,15 @@
 * Fecha: 20/07/2016
 */
 {
+	"browser.action" : {
+		"prefix" : "browserAction",
+		"body" : [
+			"browser.actions().",
+			"\t${actions}",
+			"\tperform();"
+		],
+		"description" : "browserAction"
+	},
 	"browser.addMockModule":{
 			"prefix" : "browserAddMockModule",
 			"body"   : "browser.addMockModule($1);",

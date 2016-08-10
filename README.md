@@ -18,6 +18,7 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 ###Browser
 | Prefix (Trigger)   | Descripcion |
 | -------                           | ----------- |
+| `browserAAction⇥`                 | browser.action                        |
 | `browserAddMockModule⇥`           | browser.addMockModule                 |
 | `browserClearMockModules⇥`        | browser.clearMockModules              |
 | `browserDebugger⇥`                | browser.debugger                      |
