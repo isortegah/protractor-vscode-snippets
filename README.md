@@ -126,11 +126,12 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 ###Expected Conditions
 | Prefix (Trigger)              | Descripcion |
 | -------                       | ----------- |
-| `expectNot⇥`                  | expect.not                    |
-| `expectAnd⇥`                  | expect.and                    |
-| `expectOr⇥`                   | expect.or                     |
-| `expectAlertIsPresent⇥`       | expect.alertIsPresent         |
-| `expectElementToBeClickable⇥` | expect.elementToBeClickable   |
+| `expectNot⇥`                  | expect.not                            |
+| `expectAnd⇥`                  | expect.and                            |
+| `expectOr⇥`                   | expect.or                             |
+| `expectAlertIsPresent⇥`       | expect.alertIsPresent                 |
+| `expectElementToBeClickable⇥` | expect.elementToBeClickable           |
+| `expectTextToBePresentInElement⇥` | expect.textToBePresentInElement   |
 
 
 ## Features

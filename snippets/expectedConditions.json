@@ -40,5 +40,15 @@
             ", ${numberWait});"
         ],
         "description" : "expect.elementToBeClickable"
+    },
+    "expect.textToBePresentInElement" : {
+        "prefix" : "expectTextToBePresentInElement",
+        "body" : [
+            "var EC = protractor.ExpectedConditions;",
+            "browser.wait(",
+            "\tEC.textToBePresentInElement(${element}, ${text})",
+            ", ${numberWait});"
+        ],
+        "description" : "expectTextToBePresentInElement"
     }
 }
