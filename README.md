@@ -10,11 +10,15 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | Prefix (Trigger)   | Descripcion |
 | -------            | ----------- |
 | `it⇥`                         | it                        |
+| `beforeAll⇥`                  | beforeAll                 |
+| `describe⇥`                   | describe                  |
 | `jasmineObjectContaining⇥`    | jasmine.objectContaining  |
+| `require⇥`                    | require                   |
 
 ###Browser
 | Prefix (Trigger)   | Descripcion |
 | -------                           | ----------- |
+| `browserAAction⇥`                 | browser.action                        |
 | `browserAddMockModule⇥`           | browser.addMockModule                 |
 | `browserClearMockModules⇥`        | browser.clearMockModules              |
 | `browserDebugger⇥`                | browser.debugger                      |

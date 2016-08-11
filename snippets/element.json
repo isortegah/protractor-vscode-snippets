@@ -161,7 +161,7 @@
     "element.getWebElement" : {
         "prefix" : "elementGetWebElement",
         "body" : [
-            "element(${locator}).getWebElement();"
+            "element(${locator}).getWebElement()"
         ],
         "description" : "element.getWebElement"
     },
