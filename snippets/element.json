@@ -138,7 +138,7 @@
     "element" : {
         "prefix" : "element",
         "body" : [
-            "element(${locator});"
+            "element(${locator})"
         ],
         "description" : "element"
     },

@@ -126,7 +126,7 @@
      "description" : "by.id"
    },
    "by.linkText" : {
-     "prefix" : "by.LinkText",
+     "prefix" : "byLinkText",
      "body" : [
        "by.linkText(${text})"
      ],
