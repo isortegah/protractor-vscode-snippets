@@ -14,11 +14,12 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | `describe⇥`                   | describe                  |
 | `jasmineObjectContaining⇥`    | jasmine.objectContaining  |
 | `require⇥`                    | require                   |
+| `consoleLog⇥`                 | console.log               |
 
 ###Browser
 | Prefix (Trigger)   | Descripcion |
 | -------                           | ----------- |
-| `browserAAction⇥`                 | browser.action                        |
+| `browserActions⇥`                 | browser.actions                       |
 | `browserAddMockModule⇥`           | browser.addMockModule                 |
 | `browserClearMockModules⇥`        | browser.clearMockModules              |
 | `browserDebugger⇥`                | browser.debugger                      |

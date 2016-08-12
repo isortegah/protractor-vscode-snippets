@@ -4,8 +4,8 @@
 * Fecha: 20/07/2016
 */
 {
-	"browser.action" : {
-		"prefix" : "browserAction",
+	"browser.actions" : {
+		"prefix" : "browserActions",
 		"body" : [
 			"browser.actions().",
 			"\t${actions}",
