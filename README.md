@@ -131,17 +131,17 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 ###Expected Conditions
 | Prefix (Trigger)              | Descripcion |
 | -------                       | ----------- |
-| `expectNot⇥`                  | expect.not                            |
-| `expectAnd⇥`                  | expect.and                            |
-| `expectOr⇥`                   | expect.or                             |
-| `expectAlertIsPresent⇥`       | expect.alertIsPresent                 |
-| `expectElementToBeClickable⇥` | expect.elementToBeClickable           |
-| `expectTextToBePresentInElement⇥`         | expect.textToBePresentInElement        |
-| `expectTextToBePresentInElementValue⇥`    | expect.textToBePresentInElementValue   |
-| `expectTitleContains⇥`                    | expect.titleContains                   |
-| `expectTitleIs⇥`                          | expect.titleIs                         |
-| `expectUrlContains⇥`                      | expect.urlContains                     |
-| `expectUrlIs⇥`                            | expect.urlIs                           |
+| `ECNot⇥`                      | EC.not                            |
+| `ECAnd⇥`                      | EC.and                            |
+| `ECOr⇥`                       | EC.or                             |
+| `ECAlertIsPresent⇥`           | EC.alertIsPresent                 |
+| `ECElementToBeClickable⇥`     | EC.elementToBeClickable           |
+| `ECTextToBePresentInElement⇥`         | EC.textToBePresentInElement        |
+| `ECTextToBePresentInElementValue⇥`    | EC.textToBePresentInElementValue   |
+| `ECTitleContains⇥`                    | EC.titleContains                   |
+| `ECTitleIs⇥`                          | EC.titleIs                         |
+| `ECUrlContains⇥`                      | EC.urlContains                     |
+| `ECUrlIs⇥`                            | EC.urlIs                           |
 
 
 ## Features

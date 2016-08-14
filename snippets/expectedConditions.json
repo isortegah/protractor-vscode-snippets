@@ -4,111 +4,123 @@
 * Fecha: 06/08/2016
 */
 {
-    "expect.not" : {
-        "prefix" : "expectNot",
-        "body" : [
-            "expect(${element}).not(${expectedCondition})"
-        ],
-        "description" : "expect.not"
-    },
-    "expect.and" : {
-        "prefix" : "expectAnd",
+    "EC.not" : {
+        "prefix" : "ECNot",
         "body" : [
             "var EC = protractor.ExpectedConditions;",
             "browser.wait(",
-            "\tEC.and(${expect1}, ${expect2})",
-            ", ${numberWait});"
+            "\tEC.not(${ECedCondition}), ${numberWait});"
         ],
-        "description" : "expect.and"
+        "description" : "EC.not"
     },
-    "expect.or" : {
-        "prefix" : "expectOr",
+    "EC.and" : {
+        "prefix" : "ECAnd",
         "body" : [
             "var EC = protractor.ExpectedConditions;",
             "browser.wait(",
-            "\tEC.or(${expect1}, ${expect2})",
+            "\tEC.and(${EC1}, ${EC2})",
             ", ${numberWait});"
         ],
-        "description" : "expect.or"
+        "description" : "EC.and"
     },
-    "expect.alertIsPresent" : {
-        "prefix" : "expectAlertIsPresent",
+    "EC.or" : {
+        "prefix" : "ECOr",
+        "body" : [
+            "var EC = protractor.ExpectedConditions;",
+            "browser.wait(",
+            "\tEC.or(${EC1}, ${EC2})",
+            ", ${numberWait});"
+        ],
+        "description" : "EC.or"
+    },
+    "EC.alertIsPresent" : {
+        "prefix" : "ECAlertIsPresent",
         "body" : [
             "var EC = protractor.ExpectedConditions;",
             "browser.wait(",
             "\tEC.alertIsPresent()",
             ", ${numberWait});"
         ],
-        "description" : "expect.alertIsPresent"
+        "description" : "EC.alertIsPresent"
     },
-    "expect.elementToBeClickable" : {
-        "prefix" : "expectElementToBeClickable",
+    "EC.elementToBeClickable" : {
+        "prefix" : "ECElementToBeClickable",
         "body" : [
             "var EC = protractor.ExpectedConditions;",
             "browser.wait(",
             "\tEC.elementToBeClickable(${element})",
             ", ${numberWait});"
         ],
-        "description" : "expect.elementToBeClickable"
+        "description" : "EC.elementToBeClickable"
     },
-    "expect.textToBePresentInElement" : {
-        "prefix" : "expectTextToBePresentInElement",
+    "EC.textToBePresentInElement" : {
+        "prefix" : "ECTextToBePresentInElement",
         "body" : [
             "var EC = protractor.ExpectedConditions;",
             "browser.wait(",
             "\tEC.textToBePresentInElement(${element}, ${text})",
             ", ${numberWait});"
         ],
-        "description" : "expectTextToBePresentInElement"
+        "description" : "ECTextToBePresentInElement"
     },
-    "expect.textToBePresentInElementValue" : {
-        "prefix" : "expectTextToBePresentInElementValue",
+    "EC.textToBePresentInElementValue" : {
+        "prefix" : "ECTextToBePresentInElementValue",
         "body" : [
             "var EC = protractor.ExpectedConditions;",
             "browser.wait(",
             "\tEC.textToBePresentInElementValue(${element}, ${text})",
             ", ${numberWait});"
         ],
-        "description" : "expectTextToBePresentInElementValue"
+        "description" : "ECTextToBePresentInElementValue"
     },
-    "expect.titleContains" : {
-        "prefix" : "expectTitleContains",
+    "EC.titleContains" : {
+        "prefix" : "ECTitleContains",
         "body" : [
             "var EC = protractor.ExpectedConditions;",
             "browser.wait(",
             "\tEC.titleContains(${element}, ${text})",
             ", ${numberWait});"
         ],
-        "description" : "expectTitleContains"
+        "description" : "ECTitleContains"
     },
-    "expect.titleIs" : {
-        "prefix" : "expectTitleIs",
+    "EC.titleIs" : {
+        "prefix" : "ECTitleIs",
         "body" : [
             "var EC = protractor.ExpectedConditions;",
             "browser.wait(",
             "\tEC.titleIs(${element}, ${text})",
             ", ${numberWait});"
         ],
-        "description" : "expectTitleIs"
+        "description" : "ECTitleIs"
     },
-    "expect.urlContains" : {
-        "prefix" : "expectUrlContains",
+    "EC.urlContains" : {
+        "prefix" : "ECUrlContains",
         "body" : [
             "var EC = protractor.ExpectedConditions;",
             "browser.wait(",
             "\tEC.urlContains(${element}, ${text})",
             ", ${numberWait});"
         ],
-        "description" : "expectUrlContains"
+        "description" : "ECUrlContains"
     },
-    "expect.urlIs" : {
-        "prefix" : "expectUrlIs",
+    "EC.urlIs" : {
+        "prefix" : "ECUrlIs",
         "body" : [
             "var EC = protractor.ExpectedConditions;",
             "browser.wait(",
             "\tEC.urlIs(${element}, ${text})",
             ", ${numberWait});"
         ],
-        "description" : "expectUrlIs"
+        "description" : "ECUrlIs"
+    },
+    "EC.presenceOf" : {
+        "prefix" : "ECPresenceOf",
+        "body" : [
+            "var EC = protractor.ExpectedConditions;",
+            "browser.wait(",
+            "/tEC.presenceOf(${element}, ${text})",
+            ", ${numberWait});"
+        ],
+        "description" : "EC.presenceOf"
     }
 }
