@@ -21,6 +21,16 @@
         ],
         "description" : "expect.and"
     },
+    "expect.or" : {
+        "prefix" : "expectOr",
+        "body" : [
+            "var EC = protractor.ExpectedConditions;",
+            "browser.wait(",
+            "\tEC.or(${expect1}, ${expect2})",
+            ", ${numberWait});"
+        ],
+        "description" : "expect.or"
+    },
     "expect.alertIsPresent" : {
         "prefix" : "expectAlertIsPresent",
         "body" : [
@@ -50,5 +60,25 @@
             ", ${numberWait});"
         ],
         "description" : "expectTextToBePresentInElement"
+    },
+    "expect.textToBePresentInElementValue" : {
+        "prefix" : "expectTextToBePresentInElementValue",
+        "body" : [
+            "var EC = protractor.ExpectedConditions;",
+            "browser.wait(",
+            "\tEC.textToBePresentInElementValue(${element}, ${text})",
+            ", ${numberWait});"
+        ],
+        "description" : "expectTextToBePresentInElementValue"
+    },
+    "expect.titleContains" : {
+        "prefix" : "expectTitleContains",
+        "body" : [
+            "var EC = protractor.ExpectedConditions;",
+            "browser.wait(",
+            "\tEC.titleContains(${element}, ${text})",
+            ", ${numberWait});"
+        ],
+        "description" : "expectTitleContains"
     }
 }

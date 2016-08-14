@@ -136,7 +136,9 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | `expectOr⇥`                   | expect.or                             |
 | `expectAlertIsPresent⇥`       | expect.alertIsPresent                 |
 | `expectElementToBeClickable⇥` | expect.elementToBeClickable           |
-| `expectTextToBePresentInElement⇥` | expect.textToBePresentInElement   |
+| `expectTextToBePresentInElement⇥`         | expect.textToBePresentInElement        |
+| `expectTextToBePresentInElementValue⇥`    | expect.textToBePresentInElementValue   |
+| `expectTitleContains⇥`                    | expect.titleContains                   |
 
 
 ## Features
