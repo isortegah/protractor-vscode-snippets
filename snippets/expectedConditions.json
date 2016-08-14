@@ -80,5 +80,35 @@
             ", ${numberWait});"
         ],
         "description" : "expectTitleContains"
+    },
+    "expect.titleIs" : {
+        "prefix" : "expectTitleIs",
+        "body" : [
+            "var EC = protractor.ExpectedConditions;",
+            "browser.wait(",
+            "\tEC.titleIs(${element}, ${text})",
+            ", ${numberWait});"
+        ],
+        "description" : "expectTitleIs"
+    },
+    "expect.urlContains" : {
+        "prefix" : "expectUrlContains",
+        "body" : [
+            "var EC = protractor.ExpectedConditions;",
+            "browser.wait(",
+            "\tEC.urlContains(${element}, ${text})",
+            ", ${numberWait});"
+        ],
+        "description" : "expectUrlContains"
+    },
+    "expect.urlIs" : {
+        "prefix" : "expectUrlIs",
+        "body" : [
+            "var EC = protractor.ExpectedConditions;",
+            "browser.wait(",
+            "\tEC.urlIs(${element}, ${text})",
+            ", ${numberWait});"
+        ],
+        "description" : "expectUrlIs"
     }
 }
