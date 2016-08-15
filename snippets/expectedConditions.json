@@ -122,5 +122,45 @@
             ", ${numberWait});"
         ],
         "description" : "EC.presenceOf"
+    },
+    "EC.stalenessOf" : {
+        "prefix" : "ECStalenessOf",
+        "body" : [
+            "var EC = protractor.ExpectedConditions;",
+            "browser.wait(",
+            "/tEC.stalenessOf(${element}, ${text})",
+            ", ${numberWait});"
+        ],
+        "description" : "EC.stalenessOf"
+    },
+    "EC.visibilityOf" : {
+        "prefix" : "ECVisibilityOf",
+        "body" : [
+            "var EC = protractor.ExpectedConditions;",
+            "browser.wait(",
+            "/tEC.visibilityOf(${element}, ${text})",
+            ", ${numberWait});"
+        ],
+        "description" : "EC.visibilityOf"
+    },
+    "EC.invisibilityOf" : {
+        "prefix" : "ECInvisibilityOf",
+        "body" : [
+            "var EC = protractor.ExpectedConditions;",
+            "browser.wait(",
+            "/tEC.invisibilityOf(${element}, ${text})",
+            ", ${numberWait});"
+        ],
+        "description" : "EC.invisibilityOf"
+    },
+    "EC.elementToBeSelected" : {
+        "prefix" : "ECElementToBeSelected",
+        "body" : [
+            "var EC = protractor.ExpectedConditions;",
+            "browser.wait(",
+            "/tEC.elementToBeSelected(${element}, ${text})",
+            ", ${numberWait});"
+        ],
+        "description" : "EC.elementToBeSelected"
     }
 }

@@ -142,6 +142,11 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | `ECTitleIs⇥`                          | EC.titleIs                         |
 | `ECUrlContains⇥`                      | EC.urlContains                     |
 | `ECUrlIs⇥`                            | EC.urlIs                           |
+| `ECPresenceOf⇥`                       | EC.presenceOf                      |
+| `ECStalenessOf⇥`                      | EC.stalenessOf                     |
+| `ECVisibilityOf⇥`                     | EC.visibilityOf                    |
+| `ECInvisibilityOf⇥`                   | EC.invisibilityOf                  |
+| `ECElementToBeSelected⇥`              | EC.elementToBeSelected             |
 
 
 ## Features
