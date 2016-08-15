@@ -26,6 +26,9 @@
             },{
                 "language": "javascript",
                 "path": "./snippets/locator.json"
+            },{
+                "language": "javascript",
+                "path": "./snippets/expectConditions.json"
             }
         ]
     }
