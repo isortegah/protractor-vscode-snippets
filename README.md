@@ -138,6 +138,8 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | `expectNotToBe⇥`              | expect.not.toBe         |
 | `expectToBeAfter⇥`            | expect.toBeAfter        |
 | `expectToEqual⇥`              | expect.toEqual          |
+| `expectToMatch⇥`              | expect.toMatch          |
+
 
 ###Expected Conditions
 | Prefix (Trigger)              | Descripcion |

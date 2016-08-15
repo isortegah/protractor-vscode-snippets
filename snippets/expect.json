@@ -31,5 +31,12 @@
             "expect(${element}).toEqual($1);"
         ],
         "description" : "expect.toEqual"
+    },
+    "expect.toMatch" : {
+        "prefix" : "expectToMatch",
+        "body" : [
+            "expect.toMatch(${element}).toMatch($1);"
+        ],
+        "description" : "expect.toMatch"
     }
 }
