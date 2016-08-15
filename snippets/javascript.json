@@ -21,15 +21,6 @@
 		],
 		"description" : "describe"
 	},
-	"beforeAll" : {
-		"prefix" : "beforeAll",
-		"body" : [
-			"beforeAll( function (){",
-			"\t${body}",
-			"})"
-		],
-		"description" : "beforeAll"
-	},
 	"afterAll" : {
 		"prefix" : "afterAll",
 		"body" : [
@@ -38,6 +29,15 @@
 			"})"
 		],
 		"description" : "afterAll"
+	},
+	"beforeAll" : {
+		"prefix" : "beforeAll",
+		"body" : [
+			"beforeAll( function (){",
+			"\t${body}",
+			"})"
+		],
+		"description" : "beforeAll"
 	},
 	"require" : {
 		"prefix" : "require",
