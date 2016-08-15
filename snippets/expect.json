@@ -17,5 +17,19 @@
             "expect(${element}).not.toBe($1);"
         ],
         "description" : "expect.not.toBe"
+    },
+    "expect.toBeAfter" : {
+        "prefix" : "expectToBeAfter",
+        "body" : [
+            "expect(${element}).toBeAfter($1);"
+        ],
+        "description" : "expect.toBeAfter"
+    },
+    "expect.toEqual" : {
+        "prefix" : "expectToEqual",
+        "body" : [
+            "expect(${element}).toEqual($1);"
+        ],
+        "description" : "expect.toEqual"
     }
 }

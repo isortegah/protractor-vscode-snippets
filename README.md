@@ -12,7 +12,7 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | `afterAll⇥`                   | afterAll                  |
 | `afterEach⇥`                  | afterEach                 |
 | `beforeAll⇥`                  | beforeAll                 |
-| `beforeEach⇥`                 | beforeEach                |
+| `beforeEach⇥`                 | beforeEach⇥                |
 | `consoleLog⇥`                 | console.log               |
 | `describe⇥`                   | describe                  |
 | `it⇥`                         | it                        |
@@ -136,6 +136,8 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | -------                       | ----------- |
 | `expectToBe⇥`                 | expect.toBe             |
 | `expectNotToBe⇥`              | expect.not.toBe         |
+| `expectToBeAfter⇥`            | expect.toBeAfter        |
+| `expectToEqual⇥`              | expect.toEqual          |
 
 ###Expected Conditions
 | Prefix (Trigger)              | Descripcion |
