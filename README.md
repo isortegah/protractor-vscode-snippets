@@ -11,6 +11,7 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | -------            | ----------- |
 | `it⇥`                         | it                        |
 | `beforeAll⇥`                  | beforeAll                 |
+| `afterAll⇥`                   | afterAll                  |
 | `describe⇥`                   | describe                  |
 | `jasmineObjectContaining⇥`    | jasmine.objectContaining  |
 | `require⇥`                    | require                   |
@@ -127,6 +128,11 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 | `byTagName⇥`                    | by.tagName             |
 | `byXpath⇥`                      | by.xpath               |
 
+###Expect Matchers
+| Prefix (Trigger)              | Descripcion |
+| -------                       | ----------- |
+| `expectToBe⇥`                 | expect.toBe             |
+| `expectNotToBe⇥`              | expect.not.toBe         |
 
 ###Expected Conditions
 | Prefix (Trigger)              | Descripcion |

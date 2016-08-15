@@ -30,6 +30,15 @@
 		],
 		"description" : "beforeAll"
 	},
+	"afterAll" : {
+		"prefix" : "afterAll",
+		"body" : [
+			"afterAll( function (){",
+			"\t${body}",
+			"})"
+		],
+		"description" : "afterAll"
+	},
 	"require" : {
 		"prefix" : "require",
 		"body" : [

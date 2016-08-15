@@ -1,0 +1,21 @@
+/**
+* Snippets Protractor
+* Autor: ISORTEGAH
+* Fecha: 24/07/2016
+*/
+{
+    "expect.toBe" : {
+        "prefix" : "expectToBe",
+        "body" : [
+            "expect(${element}).toBe($1);"
+        ],
+        "description" : "expect.toBe"
+    },
+    "expect.not.toBe" : {
+        "prefix" : "expectNotToBe",
+        "body" : [
+            "expect(${element}).not.toBe($1);"
+        ],
+        "description" : "expect.not.toBe"
+    }
+}
