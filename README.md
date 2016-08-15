@@ -9,8 +9,10 @@ El simbolo `⇥` hace referencia a la tecla `Tab`
 ###Jasmine
 | Prefix (Trigger)   | Descripcion |
 | -------            | ----------- |
-| `afterAll⇥`                   | afterAll                 |
+| `afterAll⇥`                   | afterAll                  |
+| `afterEach⇥`                  | afterEach                 |
 | `beforeAll⇥`                  | beforeAll                 |
+| `beforeEach⇥`                 | beforeEach                |
 | `consoleLog⇥`                 | console.log               |
 | `describe⇥`                   | describe                  |
 | `it⇥`                         | it                        |

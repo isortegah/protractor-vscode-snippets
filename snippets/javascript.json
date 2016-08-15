@@ -30,6 +30,16 @@
 		],
 		"description" : "afterAll"
 	},
+	"afterEach" : {
+		"prefix" : "afterEach",
+		"body" : [
+			"afterEach( function(){})",
+			"\t${body}",
+			"})",
+		],
+		"description" : "afterEach"
+	}
+	,
 	"beforeAll" : {
 		"prefix" : "beforeAll",
 		"body" : [
@@ -38,6 +48,15 @@
 			"})"
 		],
 		"description" : "beforeAll"
+	},
+	"beforeEach" : {
+		"prefix" : "beforeEach",
+		"body" : [
+			"beforeEach( function(){",
+			"\t${body}",
+			"})"
+		],
+		"description" : "beforeEach"
 	},
 	"require" : {
 		"prefix" : "require",
