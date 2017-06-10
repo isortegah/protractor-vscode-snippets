@@ -35,7 +35,7 @@
     "expect.toMatch" : {
         "prefix" : "expectToMatch",
         "body" : [
-            "expect.toMatch(${element}).toMatch($1);"
+            "expect(${element}).toMatch($1);"
         ],
         "description" : "expect.toMatch"
     }
